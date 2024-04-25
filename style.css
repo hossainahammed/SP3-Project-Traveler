@@ -1,16 +1,14 @@
+
+/* .Card-Container{
+    height: 600px;
+    overflow:scroll;
+} */
 .nav-item:hover {
     border-bottom: 1px solid blue;
     
 }
 
- #offer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-   gap: 5px; }
-
-.card {
-    width: 100%; 
-    max-width: 540px;
-}  
+.card img {
+    height: 200px; /* Set the desired height for the cards */
+  }
 
