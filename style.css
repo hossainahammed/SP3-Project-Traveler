@@ -52,7 +52,9 @@
     text-decoration: none;
 }
 
-
+.product_card{
+    height:400px;
+}
 
 .card img {
     height: 200px;
