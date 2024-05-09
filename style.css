@@ -80,5 +80,64 @@
     background-color:#E80479;
 }
   
-/* .card-farme:is(:hover, :focus) .image { transform: scale(1.1); 
-    transition: transform 0.5s ease;} */
+/* For screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    
+    .navbar-nav {
+        flex-direction: column; 
+    }
+    .navbar-nav .nav-link {
+        padding: 10px 0; 
+    }
+    .catagories .row {
+        flex-direction: column; 
+    }
+}
+
+/* For screens between 576px and 767.98px (small devices) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+    
+    .navbar-nav {
+        flex-direction: row; 
+    }
+    .catagories .row {
+        flex-direction: row;
+    }
+
+    #CABS .container{
+
+        flex-direction:column; 
+    }
+}
+
+/* For screens between 768px and 991.98px (medium devices) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+    .navbar-nav {
+        flex-direction: row; 
+    }
+}
+
+/* For screens between 992px and 1199.98px (large devices) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .container {
+        max-width: 960px; 
+    }
+    .navbar-nav .nav-link {
+        padding: 15px 20px; 
+    }
+}
+
+/* For screens larger than or equal to 1200px (extra large devices) */
+@media (min-width: 1200px) {
+   
+    .container {
+        max-width: 1140px; 
+    }
+    .navbar-nav .nav-link {
+        padding: 20px 25px;
+    
+}
+}
